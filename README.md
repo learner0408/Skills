@@ -13,6 +13,7 @@ A collection of agent skills — reusable instruction packages that extend the a
 | [`code-reviewer`](code-reviewer/) | Structured reviews for correctness, security, maintainability, and convention adherence | "review this PR" |
 | [`create-skill`](create-skill/) | Guides building well-structured agent skills, from frontmatter to validation | "create a skill for X" |
 | [`grilling`](grilling/) | Relentless one-question-at-a-time decision stress-testing; used by other skills to clarify decisions | "grill me on this plan" |
+| [`recruiter-outreach`](recruiter-outreach/) | Generates a concise, JD-tailored recruiter DM + email from a JD link or pasted JD | "write a LinkedIn DM for this JD https://..." |
 
 ## Pipeline
 
@@ -53,7 +54,12 @@ skills/
 ├── test-case-writer/SKILL.md
 ├── code-reviewer/SKILL.md
 ├── create-skill/SKILL.md
-└── grilling/SKILL.md
+├── grilling/SKILL.md
+└── recruiter-outreach/
+    ├── SKILL.md
+    ├── assets/profile.md
+    ├── assets/message-template.md
+    └── references/personalization-guide.md
 ```
 
 ## License
